@@ -154,7 +154,7 @@ TEST(Pool, ConcreteCostZeroPath) {
 }
 
 TEST(Pool, FenceCostEqualsOuterCircumferencePriced) {
-    double outerR = 5.0 + 2.0;  
+    double outerR = 5.0 + 2.0;
     double expected = 2.0 * PI * outerR * 500.0;
     double cost = poolFenceCost(5.0, 2.0, 500.0);
     EXPECT_NEAR(expected, cost, 1e-9);
