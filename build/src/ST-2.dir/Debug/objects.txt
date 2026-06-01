@@ -1,0 +1,2 @@
+C:/Users/vladb/UT2026/ST-2/build/src/ST-2.dir/Debug/circle.obj
+C:/Users/vladb/UT2026/ST-2/build/src/ST-2.dir/Debug/tasks.obj

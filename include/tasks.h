@@ -1,13 +1,8 @@
-// Copyright 2022 UNN-CS
+// Copyright 2026 UNN-CS
 #ifndef INCLUDE_TASKS_H_
 #define INCLUDE_TASKS_H_
 
-double earthRopeGap(double earthRadius, double ropeAddition);
-
-double poolConcreteCost(double poolRadius, double pathWidth,
-                        double concretePricePerSqM);
-
-double poolFenceCost(double poolRadius, double pathWidth,
-                     double fencePricePerLinM);
+double calculateEarthRopeGap(double r_earth, double extra_rope);
+double calculatePoolTotalCost(double radius_pool, double path_width, double conc_price, double fence_price);
 
 #endif  // INCLUDE_TASKS_H_

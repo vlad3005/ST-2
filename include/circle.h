@@ -1,4 +1,4 @@
-// Copyright 2022 UNN-CS
+// Copyright 2026 UNN-CS
 #ifndef INCLUDE_CIRCLE_H_
 #define INCLUDE_CIRCLE_H_
 
@@ -7,6 +7,10 @@ class Circle {
     double radius;
     double ference;
     double area;
+
+    void updateFromRadius();
+    void updateFromFerence();
+    void updateFromArea();
 
  public:
     explicit Circle(double r);
