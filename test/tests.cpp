@@ -1,8 +1,8 @@
 // Copyright 2026 UNN-CS
-#include "circle.h"
-#include "tasks.h"
 #include <cmath>
 #include <gtest/gtest.h>
+#include "circle.h"
+#include "tasks.h"
 
 const double LOCAL_PI = std::acos(-1.0);
 
